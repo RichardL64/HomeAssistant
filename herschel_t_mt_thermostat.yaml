@@ -29,21 +29,6 @@ entities:
         type: integer
         mapping:
           - scale: 10
-      - id: 4
-        name: mode
-        type: string
-      - id: 6
-        name: child_lock
-        type: boolean
-      - id: 101
-        name: days
-        type: integer
-        range:
-          min: 0
-          max: 99
-      - id: 103
-        name: window_open
-        type: boolean
       - id: 104
         name: temperature_unit
         type: string
@@ -52,15 +37,73 @@ entities:
             value: "C"
           - dps_val: "f"
             value: "F"
+
+  - entity: select
+    name: Mode
+    category: config
+    dps:
+      - id: 4
+        name: option
+        type: string
+        mapping:
+          - dps_val: manual
+            value: Manual
+          - dps_val: holiday
+            value: Holiday
+          - dps_val: auto
+            value: Auto
+        
+  - entity: switch
+    name: Child lock
+    category: config
+    dps:
+      - id: 6
+        name: switch
+        type: boolean
+        
+  - entity: number
+    name: Holiday days
+    category: config
+    dps:
+      - id: 101
+        name: value
+        type: integer
+        range:
+          min: 0
+          max: 99
+          
+  - entity: switch
+    name: Open window technology
+    category: config
+    dps:
+      - id: 103
+        name: switch
+        type: boolean
+
+  - entity: number
+    name: Calibration
+    category: config
+    dps:
       - id: 106
-        name: calibration
+        name: value
         type: integer
         range:
           min: -90
           max: 90
+        mapping:
+          - scale: 10
+          
+  - entity: switch
+    name: Adaptive start
+    category: config
+    dps:
       - id: 107
-        name: pre_start
+        name: switch
         type: boolean
+        
+  - entity: binary_sensor
+    name: Heater
+    dps:
       - id: 111
-        name: heater
+        name: sensor
         type: boolean
