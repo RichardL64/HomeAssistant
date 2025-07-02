@@ -14,9 +14,14 @@ I developed this interface and shared with the the Tuya integration project July
 /homeassistant/custom_components/tuya_local/devices/**herschel_t_mt_thermostat.yaml**
 
 ### Functionality
-Appears as a thermometer type.
+
+
+Appears as a thermometer type:
+
+![Themostat](https://github.com/RichardL64/HomeAssistant/blob/main/Herschel%20Thermostat.jpg)
 
 All configuration, except programming functioning via Home Assistant:
+
 ![Config](https://github.com/RichardL64/HomeAssistant/blob/main/Herschel%20Config.jpg)
 
 
