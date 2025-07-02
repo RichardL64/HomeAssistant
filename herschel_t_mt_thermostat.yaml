@@ -37,6 +37,14 @@ entities:
             value: "C"
           - dps_val: "f"
             value: "F"
+      - id: 111
+        name: hvac_action
+        type: boolean
+        mapping:
+            - dps_val: true
+              value: "heating"
+            - dps_val: false
+              value: "off"
 
   - entity: select
     name: Mode
@@ -101,9 +109,3 @@ entities:
         name: switch
         type: boolean
         
-  - entity: binary_sensor
-    name: Heater
-    dps:
-      - id: 111
-        name: sensor
-        type: boolean
