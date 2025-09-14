@@ -7,7 +7,7 @@
 
 
 At the time of writing this thermostat was correctly identified by Tuya Local as a Tuya object but no matching config file was available.
-I developed this interface and shared with the the Tuya integration project July 2025.
+I developed this interface and shared with the the Tuya integration project July-Sep 2025.
 
 ### Store the YAML in folder:
 
