@@ -24,4 +24,6 @@ All configuration, except schedule programming, functioning via Home Assistant:
 
 ![Config](https://github.com/RichardL64/HomeAssistant/blob/main/Herschel%20Config.jpg)
 
+Testing on my local Home Assistant installation:
 
+![Testing](https://github.com/RichardL64/HomeAssistant/blob/main/HA%20Testing.jpg)
