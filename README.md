@@ -20,7 +20,7 @@ Appears as a thermometer type:
 
 ![Themostat](https://github.com/RichardL64/HomeAssistant/blob/main/Herschel%20Thermostat.jpg)
 
-All configuration, except programming functioning via Home Assistant:
+All configuration, except schedule programming, functioning via Home Assistant:
 
 ![Config](https://github.com/RichardL64/HomeAssistant/blob/main/Herschel%20Config.jpg)
 
