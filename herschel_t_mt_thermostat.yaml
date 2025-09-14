@@ -41,10 +41,10 @@ entities:
         name: hvac_action
         type: boolean
         mapping:
-            - dps_val: true
-              value: "heating"
-            - dps_val: false
-              value: "off"
+          - dps_val: true
+            value: "heating"
+          - dps_val: false
+            value: "off"
 
   - entity: select
     name: Mode
@@ -60,7 +60,7 @@ entities:
             value: Holiday
           - dps_val: auto
             value: Auto
-        
+
   - entity: switch
     name: Child lock
     category: config
@@ -68,7 +68,7 @@ entities:
       - id: 6
         name: switch
         type: boolean
-        
+
   - entity: number
     name: Holiday days
     category: config
@@ -79,7 +79,7 @@ entities:
         range:
           min: 0
           max: 99
-          
+
   - entity: switch
     name: Open window technology
     category: config
@@ -100,7 +100,7 @@ entities:
           max: 90
         mapping:
           - scale: 10
-          
+
   - entity: switch
     name: Adaptive start
     category: config
@@ -108,4 +108,4 @@ entities:
       - id: 107
         name: switch
         type: boolean
-        
+
